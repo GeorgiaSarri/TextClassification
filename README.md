@@ -24,13 +24,15 @@ Due to the small size of the dataset it is difficult to draw a conclusion regard
 ### Prerequisites
 
 * This package needs tensorflow installed on GPU.
+<br>
 other modules:
-keras
-sklearn
-gensim
-numpy
-pandas
-bs4
+<br>
+- keras
+- sklearn
+- gensim
+- numpy
+- pandas
+- bs4
 
 ### File Description
 
