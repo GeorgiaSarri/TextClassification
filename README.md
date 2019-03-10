@@ -3,15 +3,15 @@ The objective of this project was to familiarize with text classifiers and espec
 Reviews are classified in 3 classes (negative, neutral and positive), the dataset includes 2573 reviews which are considered a small number for training. 
 
 ## Project Desrciption
-Due to the small size of the dataset many candidate classifiers were tested and tuned to get the best result. 
+Due to the small size of the dataset many candidate hyper-parameters were tuned to get the best results. 
 The following classifiers were selected:
-1.	Naïve Bayes
-2.	Logistic Reggression
-3.	K-NN
-4.	Support Vector Machines (SVM)
-5.	Random forest Classifier
-6.	Bagging Classifier
-7.	ExtraTreesClassifier
+
+1. Intializers
+2. Dropout rate
+3. Activation function
+4. Learning rate reduction
+5. Early Stopping
+6. Units Dense layer of hidden layers
 
 Additionally two different text representation were tried:
 1. TF-IDF Vectors
@@ -23,7 +23,14 @@ Due to the small size of the dataset it is difficult to draw a conclusion regard
 ## Getting Started
 ### Prerequisites
 
-* This package needs Pyhton 3.0 or higher to run.
+* This package needs tensorflow installed on GPU.
+other modules:
+keras
+sklearn
+gensim
+numpy
+pandas
+bs4
 
 ### File Description
 
